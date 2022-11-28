@@ -146,6 +146,7 @@ main::after {
 	margin: 0 0 0.5rem;
 	font-weight: normal;
 	grid-area: title;
+	font-family:  meno-banner, serif;
 }
 
 .frame__links {
@@ -342,7 +343,7 @@ main::after {
 	content: '';
 	z-index: 1000;
 	pointer-events: none;
-	background: linear-gradient(to top, var(--color-bg), transparent);
+	/* background: linear-gradient(to top, var(--color-bg), transparent); */
 	position: absolute;
 	top: 0;
 	left: 0;
